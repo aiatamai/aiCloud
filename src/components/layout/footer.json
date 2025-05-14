@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_layout_footers",
+  "info": {
+    "displayName": "footer"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.logo-link"
+    },
+    "navitems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.logo-link"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}
